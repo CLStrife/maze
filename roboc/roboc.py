@@ -115,9 +115,9 @@ while mvt != 'q':
             laCarte2[x] = replace(laCarte2[x], y - 1, "X")
             laCarte2[x] = replace(laCarte2[x], y, " ")
             y = y - 1
-    with open("save\save.txt", "wb") as f:
+    '''with open("save\save.txt", "wb") as f:
         for lign in laCarte2:
-            f.write(str(lign) +"\n")
+            f.write(str(lign) +"\n")'''
 
     """save_game(laCarte2)"""
     afficher(laCarte2)
